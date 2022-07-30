@@ -1,4 +1,4 @@
-FROM python:stretch
+FROM public.ecr.aws/sam/build-python3.7:latest
 
 COPY . /app
 WORKDIR /app
